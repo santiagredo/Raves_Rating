@@ -1,0 +1,27 @@
+.see-all-button {
+    margin: 0 auto;
+    background-color: #ffffff; /* Light background color */
+    color: #34495e; /* Dark text color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 900px;
+    min-height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3px;
+    text-decoration: none;
+}
+
+.see-all-button:hover {
+    background-color: #34495e; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    cursor: pointer;
+}
+
+.see-all-button:hover h3 {
+    margin-top: 0;
+    transition: color 0.1s ease;
+}

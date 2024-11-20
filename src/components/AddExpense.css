@@ -1,0 +1,78 @@
+.add-expense-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-expense-modal {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.add-expense-modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.add-expense-modal-title {
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
+
+.add-expense-modal-body {
+    padding: 20px;
+}
+
+.add-expense-modal-body label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-expense-modal-body input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.add-expense-modal-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+.add-expense-modal-footer button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button.secondary {
+    background-color: #95a5a6;
+}
+
+button.secondary:hover {
+    background-color: #7f8c8d;
+}

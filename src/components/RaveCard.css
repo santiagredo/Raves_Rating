@@ -1,0 +1,62 @@
+.card {
+    background-color: #ffffff; /* Light background color */
+    color: #34495e; /* Dark text color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    min-height: 155px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: #34495e; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    cursor: pointer;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #2c3e50; /* Initial color for h3 */
+    transition: color 0.1s ease;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #7f8c8d; /* Initial color for p */
+    transition: color 0.1s ease;
+}
+
+.card:hover h3,
+.card:hover p {
+    color: #ffffff; /* Light text color on hover */
+}
+
+/* Invert colors for dark mode */
+/* @media (prefers-color-scheme: dark) {
+    .card {
+        background-color: #34495e;
+        color: #ffffff;
+    }
+
+    .card:hover {
+        background-color: #ffffff;
+        color: #34495e;
+    }
+
+    .card h3 {
+        color: #ecf0f1;
+    }
+
+    .card p {
+        color: #bdc3c7;
+    }
+
+    .card:hover h3,
+    .card:hover p {
+        color: #34495e;
+    }
+} */

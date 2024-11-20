@@ -1,0 +1,158 @@
+/* rave */
+.rave-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rave-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rave-name {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.rave-rating {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.rave-info p {
+    margin: 10px 0;
+}
+
+/* options */
+.rave-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rave-options-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.rave-options-card:hover {
+    background-color: #34495e;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* artists */
+.rave-section-artists {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.rave-section-artists h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.rave-artists {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30%);
+    align-items: stretch;
+    justify-content: first baseline;
+    gap: 40px;
+}
+
+.rave-artists-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rave-artists-card-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.rave-artists-card button {
+    width: 35px;
+}
+
+.rave-artists-card button img {
+    width: 100%;
+}
+
+/* expenses */
+.rave-section-expenses {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.rave-section-expenses h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.rave-expenses {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30%);
+    align-items: stretch;
+    justify-content: first baseline;
+    gap: 40px;
+}
+
+.rave-expenses-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rave-expenses-card button {
+    width: 35px;
+}
+
+.rave-expenses-card button img {
+    width: 100%;
+}
+
+.hover-white:hover img {
+    filter: invert(1) brightness(200%);
+}
+
+.hover-red:hover {
+    background-color: #c9302c;
+    color: white;
+}

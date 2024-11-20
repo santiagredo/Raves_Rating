@@ -1,0 +1,114 @@
+.add-artist-modal-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.add-artist-modal {
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+.add-artist-modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.add-artist-modal-title {
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+.add-artist-modal-body {
+    padding: 0 20px;
+    min-height: 165px;
+}
+
+.add-artist-modal-tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.add-artist-modal-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.add-artist-modal-tab:hover {
+    text-decoration: underline;
+}
+
+.add-artist-modal-tab-active {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.add-artist-modal-tab-content {
+    padding: 20px 0;
+}
+
+.add-artist-modal-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-artist-modal-select,
+.add-artist-modal-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.add-artist-modal-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+.add-artist-modal-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-artist-modal-button:hover {
+    background-color: #2980b9;
+}
+
+.add-artist-modal-button-confirm {
+    margin-right: 10px;
+}
+
+.add-artist-modal-button-cancel {
+    background-color: #e74c3c;
+}
+
+.add-artist-modal-button-cancel:hover {
+    background-color: #c0392b;
+}

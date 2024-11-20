@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.main-container {
+    margin: 0 auto 20px;
+    padding: 20px;
+    height: 100%;
+    max-width: 1000px;
+}
+
+h1 {
+    color: #34495e;
+    text-align: center;
+}
+
+h2 {
+    width: max-content;
+    color: #34495e;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* h2 {
+        color: #fff;
+    } */
+}

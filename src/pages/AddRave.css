@@ -1,0 +1,79 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin: 0 auto 20px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.form-rave {
+    display: grid;
+    gap: 20px;
+}
+
+.form-rave label {
+    font-weight: bold;
+}
+
+.form-rave input,
+.form-rave select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.div-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-date-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-date {
+    max-width: 50px;
+    text-align: center;
+}
+
+.input-date-year {
+    max-width: 70px;
+    text-align: center;
+}
+
+select {
+    cursor: pointer;
+}
+
+.button-create {
+    background-color: #ffffff;
+    color: #34495e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.button-create:hover {
+    background-color: #34495e;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-valid {
+    opacity: 0.5;
+}
